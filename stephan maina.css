@@ -1,0 +1,74 @@
+/* CSS for movie listings */
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .movie-item {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .movie-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .movie-genre {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-description {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .movie-showtime {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .movie-capacity {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  .movie-tickets-sold {
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .movie-poster {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  /* Additional styles as per your design requirements */
+  .movie {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .movie > img {
+    width: 150px;
+    height: 200px;
+  }
+  .movie > h3 {
+    margin-top: 0;
+  }
+  .movie > p {
+    margin-top: 0;
+  }

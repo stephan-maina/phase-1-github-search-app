@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>TRENDING MOVIE FILMS</title>
+    <link rel="stylesheet" href=".css">
+</head>
+
+<body>
+    <div id="movies">
+        <h1>HOT TRENDING MOVIE-LISTING</h1>
+        <form id="search-form">
+            <label for="movie">Movie</label>
+            <input type="text" id="movie" name="movie" placeholder="Enter Movie">
+            <label for="year">Year</label>
+            <input type="text" id="year" name="year" placeholder="Enter Year">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div id="movie-list-container"></div>
+
+    <script src=".js"></script>
+</body>
+
+</html>
+
+
